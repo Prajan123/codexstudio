@@ -1,0 +1,385 @@
+body {
+    background-image: url('project.jpg');
+    background-repeat: no-repeat;
+    background-size: 1347px 913px;
+    display: inline-block;
+}
+
+#no {
+    display: inline-block;
+    font-size: smaller;
+    color: grey;
+    margin: 30px 0px 0px 30px;
+    font-family: monospace;
+}
+
+.background {
+    background-color: white;
+    width: 1087px;
+    height: 800px;
+    margin: 50px 0px 50px 130px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#one {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 30px;
+    color: grey;
+    font-family: monospace;
+    font-size: smaller;
+}
+
+.pic {
+    display: block;
+    margin-left: 508px;
+    margin-top: -20px;
+    width: 70px;
+    height: 70px;
+}
+
+.mouse {
+    cursor: pointer;
+    position: relative;
+    margin: 20px 0px 0px 400px;
+    font-family: monospace;
+    color: gray;
+    font-size: smaller;
+    font-weight: bolder;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+.Checkout {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0px 0px 60px;
+}
+
+.SP {
+    font-family: Arial;
+    color: gray;
+    margin: 25px 0px 0px 63px;
+    font-size: smaller;
+    letter-spacing: 1px;
+}
+
+.Your {
+    font-family: Arial;
+    color: gray;
+    margin: -39px 0px 0px 650px;
+    font-size: smaller;
+    letter-spacing: 1px;
+}
+
+.esb {
+    font-family: Arial;
+    color: gray;
+    margin: -10px 0px 0px 760px;
+    font-size: xx-small;
+    letter-spacing: 1px;
+}
+
+hr {
+    width: 400px;
+    margin: 20px 0px 0px 62px;
+    color: grey;
+}
+
+.sec {
+    width: 360px;
+    margin: 21px 0px 0px 650px;
+    color: grey;
+}
+
+.address {
+    margin: 20px 0px 0px 62px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.cp1 {
+    width: 50px;
+    height: 70px;
+    margin: -50px 0px 0px 660px;
+}
+
+.p1 {
+    margin: -65px 0px 0px 720px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.p2 {
+    margin: 05px 0px 0px 720px;
+    color: gray;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.money {
+    margin: -39px 146px 0px 920px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 5px;
+    position: relative;
+}
+
+.hr {
+    margin: 50px 146px 0px 650px;
+    width: 360px;
+}
+
+.h3 {
+    margin: -79px 146px 0px 970px;
+}
+
+.payment {
+    font-size: medium;
+    color: grey;
+    margin: 50px 0px 0px 63px;
+    font-family: monospace;
+}
+
+.name {
+    color: gray;
+    font-family: monospace;
+    margin: 30px 0px 0px 63px;
+}
+
+.ip1 {
+    margin: 5px 0px 0px 63px;
+    width: 400px;
+    height: 30px;
+    padding: 3px;
+    display: block;
+}
+
+.card {
+    color: gray;
+    font-family: monospace;
+    margin: 30px 0px 0px 63px;
+}
+
+.ip2 {
+    width: 400px;
+    height: 30px;
+    padding: 3px;
+    margin: 5px 0px 0px 63px;
+
+}
+
+.valid {
+    color: gray;
+    font-family: monospace;
+    margin: 30px 0px 0px 63px;
+}
+
+#ip3 {
+    width: 190px;
+    height: 30px;
+    padding: 3px;
+    margin: 5px 0px 0px 63px;
+}
+
+.cvv {
+    color: gray;
+    font-family: monospace;
+    margin: -60px 0px 0px 273px;
+}
+
+.ip4 {
+    width: 190px;
+    height: 30px;
+    padding: 3px;
+    margin: 5px 0px 0px 273px;
+}
+
+.button {
+    width: 410px;
+    height: 50px;
+    background-color: #00A693;
+    margin: 35px 0px 0px 63px;
+    border: 0px;
+    position: relative;
+
+    &:hover {
+        background-color: #01c9a7;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+.head {
+    position: absolute;
+    margin: -35px 0px 0px 210px;
+    color: white;
+    font-family: monospace;
+
+    &:hover {
+        color: antiquewhite;
+    }
+
+}
+
+* {
+    cursor: default;
+}
+
+input {
+    cursor: text;
+}
+
+.cp2 {
+    width: 50px;
+    height: 70px;
+    margin: -360px 0px 0px 660px;
+    position: absolute;
+}
+
+.v1 {
+    margin: -349px 0px 0px 720px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.v2 {
+    margin: 10px 0px 0px 720px;
+    color: gray;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.van {
+    margin: -39px 146px 0px 920px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 5px;
+    position: relative;
+}
+
+.h3-2 {
+    margin: -29px 146px 0px 970px;
+}
+
+.two {
+    margin: 50px 146px 0px 650px;
+    width: 360px;
+}
+
+.c1 {
+    margin: 19px 0px 0px 720px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.c2 {
+    margin: 10px 0px 0px 720px;
+    color: gray;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.pan {
+    margin: -39px 146px 0px 920px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 5px;
+    position: relative;
+}
+
+.h3-3 {
+    margin: -29px 146px 0px 970px;
+}
+
+.three {
+    margin: 60px 146px 0px 650px;
+    width: 360px;
+}
+
+.rp2 {
+    width: 50px;
+    height: 70px;
+    margin: 20px 0px 0px 660px;
+    position: absolute;
+}
+
+.sub-total {
+    font-family: Arial;
+    color: gray;
+    font-size: medium;
+    margin: 9px 0px 0px 650px;
+    letter-spacing: 1px;
+}
+
+.h3-4-1 {
+    margin: -22px 146px 0px 970px;
+}
+
+.ship {
+    font-family: Arial;
+    color: gray;
+    font-size: medium;
+    margin: 9px 0px 0px 650px;
+    letter-spacing: 1px;
+}
+
+
+.tax {
+    font-family: Arial;
+    color: gray;
+    font-size: medium;
+    margin: 5px 0px 0px 650px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+
+.total {
+    font-family: Arial;
+    color: gray;
+    font-size: medium;
+    margin: 5px 0px 0px 650px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+.h3-4-2 {
+    margin: -20px 146px 0px 970px;
+}
+
+.h3-4-3 {
+    margin: 05px 146px 0px 970px;
+}
+
+.h3-4-4 {
+    margin: 5px 146px 0px 970px;
+}
+
+.four{
+    margin: 10px 146px 0px 650px;
+    width: 360px;
+}
+
+.butt{
+    margin: 25px 146px 0px 650px;
+    width: 410px;
+    height: 50px;
+    border: solid 2px  #00A693;
+    position: relative;
+
+    &:hover {
+        background-color: #01c9a7;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
